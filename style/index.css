@@ -170,3 +170,52 @@
 .base-intro .base-btn:hover {
     background-color: rgba(255, 255, 255, .2);
 }
+
+/* build ---------------------------- */
+
+.base-build .base-body {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.build-li {
+    background-color: #777;
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+    /* clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%); */
+    transform: skewX(-15deg);
+}
+
+.build-li + .build-li {
+    margin-top: 2rem;
+}
+
+.build-li-1 {
+    background-color: #f4ba54;
+}
+
+.build-li-2 {
+    background-color: #eaa666;
+}
+
+.build-li-3 {
+    background-color: #cf7688;
+}
+
+.build-content {
+    transform: skewX(15deg);
+}
+
+.build-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.build-desc {
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
