@@ -41,9 +41,11 @@ body {
 .gap-1 {
     gap: 1rem;
 }
+
 .gap-2 {
     gap: 2rem;
 }
+
 .gap-3 {
     gap: 3rem;
 }
