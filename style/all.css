@@ -385,16 +385,36 @@ img {
     }
 
     .banner-index .banner-head,
-    .banner-index .banner-body {
+    .banner-index .banner-body,
+    .banner-head,
+    .banner-body {
         width: 100%;
+        box-sizing: border-box;
     }
 
     .banner-head {
         text-align: center;
     }
 
+    .banner-index .banner-head,
+    .banner-head {
+        padding: 5rem 1rem 1rem;
+    }
+
+    .banner-index .banner-body,
+    .banner-body {
+        padding-top: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .banner-title {
         font-size: 7vw;
+    }
+
+    .banner-title-line::after {
+        left: 50%;
+        margin-left: -1.5rem;
     }
 
     .banner-small {
@@ -414,5 +434,32 @@ img {
     .banner-img-mobile {
         width: 40vw;
         bottom: 2.5rem;
+    }
+
+    .banner-ul {
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .aside {
+        display: none;
+    }
+
+    .footer {
+        clip-path: none;
+        padding-top: 1rem;
+    }
+
+    .footer-head {
+        /* background-color: pink; */
+        width: 100%;
+        text-align: center;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+
+    .footer-body {
+        display: none;
     }
 }
